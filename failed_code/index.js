@@ -16,7 +16,7 @@ const fetchData = async () => {
           image_url: 'https://picsum.photos/200'
         },
         headers: {
-          'X-RapidAPI-Key': 'REDACTED-RAPIDAPI-KEY',
+          'X-RapidAPI-Key': process.env.RAPIDAPI_KEY,
           'X-RapidAPI-Host': 'color-extractor-for-apparel-2.p.rapidapi.com'
         }
       };
